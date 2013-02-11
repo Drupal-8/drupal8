@@ -1,0 +1,68 @@
+image.size:
+  type: mapping
+  mapping:
+    width:
+      type: integer
+      label: Width
+    height:
+      type: integer
+      label: Height
+'image.style.*':
+  type: mapping
+  label: 'Image style'
+  mapping:
+    name:
+      type: string
+    label:
+      type: label
+    effects:
+      type: sequence
+      sequence:
+        -
+          type: mapping
+          mapping:
+            name:
+              type: string
+            data:
+              type: 'image.effect.[%parent.name]'
+            weight:
+              type: integer
+            ieid:
+              type: string
+image.effect.image_crop:
+  type: image.size
+  label: 'Image crop'
+  mapping:
+    anchor:
+      label: Anchor
+image.effect.image_resize:
+  type: image.size
+  label: 'Image resize'
+image.effect.image_rotate:
+  type: mapping
+  label: 'Image rotate'
+  mapping:
+    degrees:
+      type: integer
+      label: 'Rotation angle'
+    bgcolor:
+      label: 'Background color'
+    random:
+      type: boolean
+      label: Randomize
+image.effect.image_scale:
+  type: image.size
+  label: 'Image scale'
+  mapping:
+    upscale:
+      type: boolean
+      label: Upscale
+image.effect.image_scale_and_crop:
+  type: image.size
+  label: 'Image scale and crop'
+image.settings:
+  type: mapping
+  mapping:
+    preview_image:
+      type: string
+      label: 'Preview image'

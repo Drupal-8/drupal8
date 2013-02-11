@@ -1,0 +1,16 @@
+comment.comment_node_page.default:
+  name: entity.display.comment.comment_node_page.default
+node.page.default:
+  name: entity.display.node.page.default
+node.page.teaser:
+  name: entity.display.node.page.teaser
+comment.comment_node_article.default:
+  name: entity.display.comment.comment_node_article.default
+node.article.default:
+  name: entity.display.node.article.default
+node.article.teaser:
+  name: entity.display.node.article.teaser
+user.user.default:
+  name: entity.display.user.user.default
+user.user.compact:
+  name: entity.display.user.user.compact

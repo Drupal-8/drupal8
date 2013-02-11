@@ -1,0 +1,6 @@
+anonymous:
+  name: user.role.anonymous
+authenticated:
+  name: user.role.authenticated
+administrator:
+  name: user.role.administrator

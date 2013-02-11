@@ -1,0 +1,12 @@
+name = Page manager
+description = Provides a UI and API to manage pages within the site.
+core = 8.x
+dependencies[] = ctools
+package = Chaos tool suite
+
+; Information added by drupal.org packaging script on 2012-09-26
+version = "8.x-1.x-dev"
+core = "8.x"
+project = "ctools"
+datestamp = "1348619134"
+

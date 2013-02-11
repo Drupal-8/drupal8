@@ -1,0 +1,37 @@
+format: full_html
+editor: ckeditor
+settings:
+  toolbar:
+    buttons:
+      -
+        - Bold
+        - Italic
+        - Format
+        - '|'
+        - Link
+        - Unlink
+        - '|'
+        - BulletedList
+        - NumberedList
+        - '|'
+        - Blockquote
+        - Image
+        - '|'
+        - Source
+        - '|'
+        - Copy
+        - Cut
+        - Paste
+        - -
+        - PasteText
+        - PasteFromWord
+        - '|'
+        - Table
+        - ShowBlocks
+        - '|'
+        - Maximize
+  plugins:
+    stylescombo:
+      styles: ''
+status: '1'
+langcode: und

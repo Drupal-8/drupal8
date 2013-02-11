@@ -1,0 +1,8 @@
+plain_text:
+  name: filter.format.plain_text
+filtered_html:
+  name: filter.format.filtered_html
+full_html:
+  name: filter.format.full_html
+php_code:
+  name: filter.format.php_code

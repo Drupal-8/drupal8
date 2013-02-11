@@ -1,0 +1,12 @@
+account:
+  name: menu.menu.account
+admin:
+  name: menu.menu.admin
+footer:
+  name: menu.menu.footer
+main:
+  name: menu.menu.main
+tools:
+  name: menu.menu.tools
+devel:
+  name: menu.menu.devel

@@ -1,0 +1,21 @@
+id: bartik.help
+label: ''
+uuid: e261c007-932a-4473-83a2-acc443c8569b
+region: help
+weight: '0'
+module: system
+status: '1'
+visibility:
+  path:
+    visibility: '0'
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      article: '0'
+      page: '0'
+  visibility__active_tab: edit-visibility-path
+plugin: system_help_block
+settings:
+  cache: '-1'

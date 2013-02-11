@@ -1,0 +1,20 @@
+bartik.content:
+  name: block.block.bartik.content
+bartik.footer:
+  name: block.block.bartik.footer
+bartik.help:
+  name: block.block.bartik.help
+bartik.login:
+  name: block.block.bartik.login
+bartik.powered:
+  name: block.block.bartik.powered
+bartik.search:
+  name: block.block.bartik.search
+bartik.tools:
+  name: block.block.bartik.tools
+seven.content:
+  name: block.block.seven.content
+seven.help:
+  name: block.block.seven.help
+seven.login:
+  name: block.block.seven.login

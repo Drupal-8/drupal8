@@ -1,0 +1,14 @@
+archive:
+  name: views.view.archive
+backlinks:
+  name: views.view.backlinks
+comments_recent:
+  name: views.view.comments_recent
+frontpage:
+  name: views.view.frontpage
+glossary:
+  name: views.view.glossary
+taxonomy_term:
+  name: views.view.taxonomy_term
+tracker:
+  name: views.view.tracker

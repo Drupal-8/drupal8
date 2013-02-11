@@ -1,0 +1,5 @@
+default: America/Chicago
+user:
+  configurable: '1'
+  default: '0'
+  warn: '0'

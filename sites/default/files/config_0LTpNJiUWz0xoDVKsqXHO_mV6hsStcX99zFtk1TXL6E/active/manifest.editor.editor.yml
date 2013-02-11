@@ -1,0 +1,4 @@
+filtered_html:
+  name: editor.editor.filtered_html
+full_html:
+  name: editor.editor.full_html

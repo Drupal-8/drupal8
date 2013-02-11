@@ -1,0 +1,83 @@
+boolean:
+  label: Boolean
+  class: \Drupal\Core\TypedData\Type\Boolean
+email:
+  label: Email
+  class: \Drupal\Core\TypedData\Type\Email
+integer:
+  label: Integer
+  class: \Drupal\Core\TypedData\Type\Integer
+string:
+  label: String
+  class: \Drupal\Core\TypedData\Type\String
+uri:
+  label: Uri
+  class: \Drupal\Core\TypedData\Type\Uri
+undefined:
+  label: Undefined
+  class: \Drupal\Core\Config\Schema\Property
+mapping:
+  label: Mapping
+  class: \Drupal\Core\Config\Schema\Mapping
+sequence:
+  label: Sequence
+  class: \Drupal\Core\Config\Schema\Sequence
+default:
+  type: undefined
+  label: Unknown
+label:
+  type: string
+  label: Label
+path:
+  type: string
+  label: Path
+text:
+  type: string
+  label: Text
+mail:
+  type: mapping
+  label: Mail
+  mapping:
+    subject:
+      type: text
+      label: Subject
+    body:
+      type: text
+      label: Body
+system.site:
+  type: mapping
+  label: 'Site information'
+  mapping:
+    name:
+      label: 'Site name'
+      type: label
+    mail:
+      label: 'Site mail'
+      type: email
+    slogan:
+      label: 'Site slogan'
+      type: text
+    page:
+      type: mapping
+      mapping:
+        403:
+          type: path
+        404:
+          type: path
+        front:
+          type: path
+          label: 'Front page path'
+    admin_compact_mode:
+      type: boolean
+    weight_select_max:
+      type: integer
+system.maintenance:
+  type: mapping
+  label: 'Maintenance mode'
+  mapping:
+    enabled:
+      type: boolean
+      label: 'Put site into maintenance mode'
+    message:
+      type: text
+      label: 'Message to display when in maintenance mode'

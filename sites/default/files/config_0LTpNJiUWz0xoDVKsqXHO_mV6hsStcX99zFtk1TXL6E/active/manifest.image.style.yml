@@ -1,0 +1,6 @@
+large:
+  name: image.style.large
+medium:
+  name: image.style.medium
+thumbnail:
+  name: image.style.thumbnail

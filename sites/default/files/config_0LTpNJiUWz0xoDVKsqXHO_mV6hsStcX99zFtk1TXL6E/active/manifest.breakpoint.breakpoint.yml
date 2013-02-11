@@ -1,0 +1,22 @@
+theme.stark.mobile:
+  name: breakpoint.breakpoint.theme.stark.mobile
+theme.stark.narrow:
+  name: breakpoint.breakpoint.theme.stark.narrow
+theme.stark.wide:
+  name: breakpoint.breakpoint.theme.stark.wide
+module.toolbar.narrow:
+  name: breakpoint.breakpoint.module.toolbar.narrow
+module.toolbar.standard:
+  name: breakpoint.breakpoint.module.toolbar.standard
+module.toolbar.wide:
+  name: breakpoint.breakpoint.module.toolbar.wide
+theme.bartik.mobile:
+  name: breakpoint.breakpoint.theme.bartik.mobile
+theme.bartik.narrow:
+  name: breakpoint.breakpoint.theme.bartik.narrow
+theme.bartik.wide:
+  name: breakpoint.breakpoint.theme.bartik.wide
+theme.seven.mobile:
+  name: breakpoint.breakpoint.theme.seven.mobile
+theme.seven.wide:
+  name: breakpoint.breakpoint.theme.seven.wide
