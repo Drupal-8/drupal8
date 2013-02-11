@@ -7,6 +7,6 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: '0'
+    weight: '1'
     settings:
       trim_length: '600'

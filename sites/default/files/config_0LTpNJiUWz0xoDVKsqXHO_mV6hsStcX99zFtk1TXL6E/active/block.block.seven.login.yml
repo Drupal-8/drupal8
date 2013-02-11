@@ -1,6 +1,6 @@
 id: seven.login
 label: 'User login'
-uuid: 05a4e98c-a0ba-430b-b6df-c92dd409ecb0
+uuid: 9a571202-869c-4a77-baed-8820622de0dd
 region: content
 weight: '10'
 module: user

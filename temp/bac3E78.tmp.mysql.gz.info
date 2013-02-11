@@ -1,0 +1,8 @@
+filename = "Eightball-2013-02-11T10-32-12"
+description = ""
+datestamp = "1360600332"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "8.0-dev"
+sites[0][name] = ""
+sites[0][url] = "http://eight.localhost:8082/"

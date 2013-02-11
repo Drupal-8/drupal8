@@ -1,6 +1,6 @@
 format: filtered_html
 name: 'Filtered HTML'
-uuid: a376329d-0cdf-4f00-9b13-e183bd661c85
+uuid: e419ae48-a1bc-4d7f-8c00-5e626d4c4901
 weight: '0'
 cache: '1'
 filters:
@@ -32,11 +32,6 @@ filters:
     module: filter
     status: '0'
     weight: '-10'
-    settings: {  }
-  php_code:
-    module: php
-    status: '0'
-    weight: '0'
     settings: {  }
   filter_html_image_secure:
     module: filter

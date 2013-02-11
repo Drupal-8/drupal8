@@ -7,7 +7,7 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: '0'
+    weight: '11'
     settings:
       trim_length: '600'
   field_tags:

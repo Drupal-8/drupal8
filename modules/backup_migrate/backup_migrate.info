@@ -1,0 +1,19 @@
+name = Backup and Migrate
+description = "Backup or migrate the Drupal Database quickly and without unnecessary data."
+core = 8.x
+
+files[] = backup_migrate.module
+files[] = backup_migrate.install
+files[] = includes/destinations.inc
+files[] = includes/profiles.inc
+files[] = includes/schedules.inc
+files[] = db.mysql.inc
+
+configure = admin/config/system/backup_migrate
+
+; Information added by drupal.org packaging script on 2013-01-25
+version = "8.x-2.x-dev"
+core = "8.x"
+project = "backup_migrate"
+datestamp = "1359074161"
+

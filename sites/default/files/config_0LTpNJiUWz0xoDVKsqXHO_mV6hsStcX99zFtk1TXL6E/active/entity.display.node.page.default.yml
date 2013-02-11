@@ -7,5 +7,5 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: '0'
+    weight: '1'
     settings: {  }

@@ -7,7 +7,7 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: '0'
+    weight: '11'
     settings: {  }
   field_tags:
     type: taxonomy_term_reference_link

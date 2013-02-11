@@ -1,6 +1,6 @@
 format: full_html
 name: 'Full HTML'
-uuid: 3f27eb5e-2446-4e13-aede-7fb40acb6f7b
+uuid: 10915f59-4c5d-46cd-8d93-f478b5d9dbb5
 weight: '1'
 cache: '1'
 filters:
@@ -32,11 +32,6 @@ filters:
     module: filter
     status: '0'
     weight: '-10'
-    settings: {  }
-  php_code:
-    module: php
-    status: '0'
-    weight: '0'
     settings: {  }
   filter_html_image_secure:
     module: filter

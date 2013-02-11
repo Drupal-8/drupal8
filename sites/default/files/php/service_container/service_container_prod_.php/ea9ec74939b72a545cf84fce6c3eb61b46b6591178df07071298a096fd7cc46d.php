@@ -782,7 +782,7 @@ class service_container_prod_ extends Container
      */
     protected function getModuleHandlerService()
     {
-        return $this->services['module_handler'] = new \Drupal\Core\Extension\CachedModuleHandler(array('block' => 'core/modules/block/block.module', 'breakpoint' => 'core/modules/breakpoint/breakpoint.module', 'ckeditor' => 'core/modules/ckeditor/ckeditor.module', 'color' => 'core/modules/color/color.module', 'comment' => 'core/modules/comment/comment.module', 'config' => 'core/modules/config/config.module', 'contact' => 'core/modules/contact/contact.module', 'contextual' => 'core/modules/contextual/contextual.module', 'ctools' => 'modules/ctools/ctools.module', 'ctools_custom_content' => 'modules/ctools/ctools_custom_content/ctools_custom_content.module', 'custom_block' => 'core/modules/block/custom_block/custom_block.module', 'dblog' => 'core/modules/dblog/dblog.module', 'edit' => 'core/modules/edit/edit.module', 'editor' => 'core/modules/editor/editor.module', 'entity' => 'core/modules/entity/entity.module', 'field' => 'core/modules/field/field.module', 'field_sql_storage' => 'core/modules/field_sql_storage/field_sql_storage.module', 'field_ui' => 'core/modules/field_ui/field_ui.module', 'file' => 'core/modules/file/file.module', 'filter' => 'core/modules/filter/filter.module', 'help' => 'core/modules/help/help.module', 'history' => 'core/modules/history/history.module', 'image' => 'core/modules/image/image.module', 'menu' => 'core/modules/menu/menu.module', 'menu_link' => 'core/modules/menu_link/menu_link.module', 'node' => 'core/modules/node/node.module', 'number' => 'core/modules/number/number.module', 'options' => 'core/modules/options/options.module', 'overlay' => 'core/modules/overlay/overlay.module', 'page_manager' => 'modules/ctools/page_manager/page_manager.module', 'path' => 'core/modules/path/path.module', 'php' => 'core/modules/php/php.module', 'rdf' => 'core/modules/rdf/rdf.module', 'search' => 'core/modules/search/search.module', 'shortcut' => 'core/modules/shortcut/shortcut.module', 'system' => 'core/modules/system/system.module', 'taxonomy' => 'core/modules/taxonomy/taxonomy.module', 'text' => 'core/modules/text/text.module', 'toolbar' => 'core/modules/toolbar/toolbar.module', 'update' => 'core/modules/update/update.module', 'user' => 'core/modules/user/user.module', 'views_ui' => 'core/modules/views/views_ui/views_ui.module', 'views' => 'core/modules/views/views.module', 'devel' => 'modules/devel/devel.module', 'standard' => 'core/profiles/standard/standard.profile'), $this->get('state'), $this->get('cache.bootstrap'));
+        return $this->services['module_handler'] = new \Drupal\Core\Extension\CachedModuleHandler(array('block' => 'core/modules/block/block.module', 'backup_migrate' => 'modules/backup_migrate/backup_migrate.module', 'breakpoint' => 'core/modules/breakpoint/breakpoint.module', 'ckeditor' => 'core/modules/ckeditor/ckeditor.module', 'color' => 'core/modules/color/color.module', 'comment' => 'core/modules/comment/comment.module', 'config' => 'core/modules/config/config.module', 'contact' => 'core/modules/contact/contact.module', 'contextual' => 'core/modules/contextual/contextual.module', 'custom_block' => 'core/modules/block/custom_block/custom_block.module', 'dblog' => 'core/modules/dblog/dblog.module', 'edit' => 'core/modules/edit/edit.module', 'editor' => 'core/modules/editor/editor.module', 'entity' => 'core/modules/entity/entity.module', 'field' => 'core/modules/field/field.module', 'field_sql_storage' => 'core/modules/field_sql_storage/field_sql_storage.module', 'field_ui' => 'core/modules/field_ui/field_ui.module', 'file' => 'core/modules/file/file.module', 'filter' => 'core/modules/filter/filter.module', 'help' => 'core/modules/help/help.module', 'history' => 'core/modules/history/history.module', 'image' => 'core/modules/image/image.module', 'menu' => 'core/modules/menu/menu.module', 'menu_link' => 'core/modules/menu_link/menu_link.module', 'node' => 'core/modules/node/node.module', 'number' => 'core/modules/number/number.module', 'options' => 'core/modules/options/options.module', 'overlay' => 'core/modules/overlay/overlay.module', 'path' => 'core/modules/path/path.module', 'php' => 'core/modules/php/php.module', 'rdf' => 'core/modules/rdf/rdf.module', 'search' => 'core/modules/search/search.module', 'shortcut' => 'core/modules/shortcut/shortcut.module', 'system' => 'core/modules/system/system.module', 'taxonomy' => 'core/modules/taxonomy/taxonomy.module', 'text' => 'core/modules/text/text.module', 'toolbar' => 'core/modules/toolbar/toolbar.module', 'update' => 'core/modules/update/update.module', 'user' => 'core/modules/user/user.module', 'views_ui' => 'core/modules/views/views_ui/views_ui.module', 'views' => 'core/modules/views/views.module', 'standard' => 'core/profiles/standard/standard.profile'), $this->get('state'), $this->get('cache.bootstrap'));
     }
 
     /**
@@ -1817,6 +1817,7 @@ class service_container_prod_ extends Container
             ),
             'container.modules' => array(
                 'block' => 'core/modules/block/block.module',
+                'backup_migrate' => 'modules/backup_migrate/backup_migrate.module',
                 'breakpoint' => 'core/modules/breakpoint/breakpoint.module',
                 'ckeditor' => 'core/modules/ckeditor/ckeditor.module',
                 'color' => 'core/modules/color/color.module',
@@ -1824,8 +1825,6 @@ class service_container_prod_ extends Container
                 'config' => 'core/modules/config/config.module',
                 'contact' => 'core/modules/contact/contact.module',
                 'contextual' => 'core/modules/contextual/contextual.module',
-                'ctools' => 'modules/ctools/ctools.module',
-                'ctools_custom_content' => 'modules/ctools/ctools_custom_content/ctools_custom_content.module',
                 'custom_block' => 'core/modules/block/custom_block/custom_block.module',
                 'dblog' => 'core/modules/dblog/dblog.module',
                 'edit' => 'core/modules/edit/edit.module',
@@ -1845,7 +1844,6 @@ class service_container_prod_ extends Container
                 'number' => 'core/modules/number/number.module',
                 'options' => 'core/modules/options/options.module',
                 'overlay' => 'core/modules/overlay/overlay.module',
-                'page_manager' => 'modules/ctools/page_manager/page_manager.module',
                 'path' => 'core/modules/path/path.module',
                 'php' => 'core/modules/php/php.module',
                 'rdf' => 'core/modules/rdf/rdf.module',
@@ -1859,7 +1857,6 @@ class service_container_prod_ extends Container
                 'user' => 'core/modules/user/user.module',
                 'views_ui' => 'core/modules/views/views_ui/views_ui.module',
                 'views' => 'core/modules/views/views.module',
-                'devel' => 'modules/devel/devel.module',
                 'standard' => 'core/profiles/standard/standard.profile',
             ),
             'persistids' => array(
